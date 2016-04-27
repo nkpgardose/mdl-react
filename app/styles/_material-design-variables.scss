@@ -82,6 +82,37 @@ $image_path: './bower_components/material-design-lite/src/images' !default;
 
 /* ==========  Color & Themes  ========== */
 
+$palette-darkblue:
+"255,235,238"
+"255,205,210"
+"239,154,154"
+"229,115,115"
+"239,83,80"
+"0,48,86"
+"229,57,53"
+"211,47,47"
+"198,40,40"
+"183,28,28"
+"255,138,128"
+"255,82,82"
+"255,23,68"
+"213,0,0";
+
+$palette-darkblue-50: nth($palette-darkblue,1);
+$palette-darkblue-100: nth($palette-darkblue, 2);
+$palette-darkblue-200: nth($palette-darkblue, 3);
+$palette-darkblue-300: nth($palette-darkblue, 4);
+$palette-darkblue-400: nth($palette-darkblue, 5);
+$palette-darkblue-500: nth($palette-darkblue, 6);
+$palette-darkblue-600: nth($palette-darkblue, 7);
+$palette-darkblue-700: nth($palette-darkblue, 8);
+$palette-darkblue-800: nth($palette-darkblue, 9);
+$palette-darkblue-900: nth($palette-darkblue, 10);
+$palette-darkblue-A100: nth($palette-darkblue, 11);
+$palette-darkblue-A200: nth($palette-darkblue, 12);
+$palette-darkblue-A400: nth($palette-darkblue, 13);
+$palette-darkblue-A700: nth($palette-darkblue, 14);
+
 // Define whether individual color palette items should have classes created.
 // Setting this to true will remove individual color classes for each color in the palettes.
 // To improve overall performance (assuming they aren't used) by:
@@ -92,9 +123,9 @@ $trim-color-classes: false !default;
 
 // Use color primarily for emphasis. Choose colors that fit with
 // your brand and provide good contrast between visual components.
-$color-primary: $palette-indigo-500 !default;
+$color-primary: $palette-darkblue-500 !default;
 $color-primary-dark: $palette-indigo-700 !default;
-$color-accent: $palette-pink-A200 !default;
+$color-accent: $palette-blue-500 !default;
 
 // Our primary is dark, so use $color-dark-contrast for overlaid text.
 $color-primary-contrast: $color-dark-contrast !default;
